@@ -20,7 +20,7 @@ function InputField({ input, setInput, addToArray, setPubs, pubs }) {
   return (
     <div className={css.container}>
       <input
-        placeholder="Names here"
+        placeholder="Add to the spinner..."
         value={input}
         onChange={handleChange}
         onKeyDown={handleKeyDown}
