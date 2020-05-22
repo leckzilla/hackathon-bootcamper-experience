@@ -1,5 +1,11 @@
 .container {
+  display: grid;
   position: absolute;
   top: 30px;
   left: 30px;
+}
+
+input {
+  padding: 3px;
+  margin: 3px;
 }

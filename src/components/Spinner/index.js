@@ -12,13 +12,13 @@ export default function Spinner() {
     "Digbrew",
     "Floodgate",
     "Birdies",
-    "The Roxy"
+    "The Roxy",
   ]);
   const [bootcampers, setBootcampers] = useState([
     "Alexa",
     "Helen",
     "Patrick",
-    "James"
+    "James",
   ]);
   const [input, setInput] = useState("");
   const [number, setNumber] = useState(null);
@@ -61,6 +61,8 @@ export default function Spinner() {
 
       <Button selectPub={selectPub} selectRound={selectRound} />
       <InputField
+        setBootcampers={setBootcampers}
+        bootcampers={bootcampers}
         setPubs={setPubs}
         pubs={pubs}
         input={input}
