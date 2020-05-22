@@ -2,4 +2,13 @@ body {
   background-image: url("./digbeth.png");
   background-size: 100%;
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px yellow;
+  font-size: 2em;
 }
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
