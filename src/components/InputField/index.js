@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import css from "./InputField.module.css";
 
 function InputField({ input, setInput, addToArray, setPubs, pubs }) {
   function handleChange(e) {
@@ -17,7 +18,7 @@ function InputField({ input, setInput, addToArray, setPubs, pubs }) {
   }
 
   return (
-    <div>
+    <div className={css.container}>
       <input
         placeholder="Names here"
         value={input}

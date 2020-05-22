@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../Button";
 import InputField from "../InputField";
+import css from "./Spinner.module.css";
 
 export default function Spinner() {
   const [pubs, setPubs] = useState([
@@ -20,8 +21,8 @@ export default function Spinner() {
   }
 
   return (
-    <>
-      <ul>
+    <div className={css.content}>
+      <ul style={{ "list-style-type": "none" }}>
         {pubs.map((item, i) => {
           return (
             <li key={item + i} style={{ color: i === number && "red" }}>
@@ -37,6 +38,6 @@ export default function Spinner() {
         input={input}
         setInput={setInput}
       />
-    </>
+    </div>
   );
 }
