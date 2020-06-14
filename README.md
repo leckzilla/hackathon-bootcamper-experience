@@ -4,7 +4,7 @@
 
 It's 5pm on Friday and therefore Pub O'Clock! Shenanigans is a bit of fun React app which will decide which of the many watering holes in Digbeth to retire to for some well-earned zesty beverages. You can also toggle to settle the age-old problem of who's round it is first and pick a member of your squad at random. You can also add to the bars/squad.
 
-Made by  
+**Made by**  
 Alexa Berry  
 James Greygoose  
 Helen Kent  
